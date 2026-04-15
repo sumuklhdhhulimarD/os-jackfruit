@@ -3,8 +3,8 @@
 
 ## Project Overview
 Done by :-
-      Sumukh D Hegde         Santhosh M
-      PES1UG24AM293          PES1UG24AM252
+      Sumukh D Hegde-PES1UG24AM293         
+      Santhosh M ---PES1UG24AM252
 
 
       
