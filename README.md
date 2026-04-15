@@ -1,7 +1,13 @@
+
 # Lightweight Container Runtime with Kernel Monitoring
 
 ## Project Overview
+Done by :-
+      Sumukh D Hegde         Santhosh M
+      PES1UG24AM293          PES1UG24AM252
 
+
+      
 This project is a simple container runtime built using C and Linux system programming concepts. The goal was to understand how containers actually work under the hood instead of just using tools like Docker.
 
 Along with that, a kernel module is implemented to monitor container processes from kernel space.
@@ -37,6 +43,10 @@ A central supervisor process:
 * Receives commands from CLI
 * Starts and stops containers
 * Keeps track of container states
+<img width="1320" height="460" alt="image" src="https://github.com/user-attachments/assets/27626a22-1b82-485d-a43e-9dabca00ef3f" />
+<img width="1477" height="330" alt="image" src="https://github.com/user-attachments/assets/df59c3dc-9846-47fa-ab62-6ca1b3922f6f" />
+<img width="1477" height="439" alt="image" src="https://github.com/user-attachments/assets/2ce2e736-eb8a-44a9-a56b-8c37fffa219c" />
+<img width="1477" height="439" alt="image" src="https://github.com/user-attachments/assets/f1392906-6b62-4e67-bad4-e64935643366" />
 
 ---
 
@@ -58,6 +68,9 @@ The kernel module:
 * Registers container PIDs using `ioctl`
 * Continuously monitors processes
 * Prints logs using `dmesg`
+<img width="1477" height="330" alt="image" src="https://github.com/user-attachments/assets/d30844a7-8800-4fcc-9ecd-9bd798c6bd76" />
+<img width="1477" height="259" alt="image" src="https://github.com/user-attachments/assets/692c78ec-f12f-46df-af51-4c741d78f2d6" />
+
 
 ---
 
